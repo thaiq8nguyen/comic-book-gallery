@@ -11,7 +11,7 @@ namespace ComicBookGallery.Data
         {
             new ComicBook()
             {
-                ID = 1,
+                Id = 1,
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Octopus' " +
@@ -27,7 +27,7 @@ namespace ComicBookGallery.Data
             },
             new ComicBook()
             {
-                ID = 2, 
+                Id = 2, 
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 657,
                 DescriptionHtml = "<p><strong>FF: THREE TIE-IN.</strong> " +
@@ -44,7 +44,7 @@ namespace ComicBookGallery.Data
             },
             new ComicBook()
             {
-                ID = 3,
+                Id = 3,
                 SeriesTitle = "Bone",
                 IssueNumber = 50,
                 DescriptionHtml = "<p><strong>The Dungeon & The Parapet, Part 1.</strong> " +
@@ -70,7 +70,7 @@ namespace ComicBookGallery.Data
             ComicBook comicBookToReturn = null;
             foreach (var comicBook in _comicBooks)
             {
-                if(comicBook.ID == id)
+                if(comicBook.Id == id)
                 {
                     comicBookToReturn = comicBook;
                     break;
